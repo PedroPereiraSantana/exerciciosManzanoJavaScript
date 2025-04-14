@@ -7,6 +7,9 @@ while (true) {
     valor = parseInt(prompt("Digite um valor"))
 
     if (valor < 0) {
+        lista.sort((a, b) => a - b)
+        console.log(lista[0])
+        console.log(lista[lista.length -1])
         break
 
     } 
@@ -15,6 +18,3 @@ while (true) {
 
 }
 
-lista.sort((a, b) => a - b)
-console.log(lista[0])
-console.log(lista[lista.length -1])
