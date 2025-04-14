@@ -15,6 +15,5 @@ while (true) {
     } 
     contador ++
     lista.push(valor)
-
 }
 
